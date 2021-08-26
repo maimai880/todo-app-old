@@ -1,0 +1,55 @@
+body {
+    background-image: url("images/bg-image.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #0A242B;
+    margin: 0;
+}
+
+#Signup-And-Login-Form {
+    background-color: white;
+    border-radius: 5px;
+    width: 600px;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+#Signup-And-Login-Form #Button {
+    width: 40%;
+}
+
+#Signup-And-Login-Form #Retype-Password-Area {
+    margin-bottom: 60px;
+}
+
+#Signup-And-Login-Form #Login-Feedback {
+    color: #DC3545;
+    font-size: 90%;
+    font-weight: 400;
+}
+
+@media (max-width: 640px) {
+    #Signup-And-Login-Form {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 620px) {
+    #Signup-And-Login-Form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    #Signup-And-Login-Form {
+        background-color: transparent;
+        border: none !important;
+    }
+
+    #Signup-Form {
+        border: none !important;
+    }
+}
